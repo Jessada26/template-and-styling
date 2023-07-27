@@ -1,0 +1,100 @@
+body {
+  background-color: #eeeeee;
+}
+
+.home {
+  display: block;
+  margin: auto;
+  width: 1200px;
+  max-width: 100%;
+}
+
+.description-components {
+  color: #282c34;
+  font-size: 14px;
+}
+
+.post.even-false {
+  background-color: #ffffff;
+}
+
+.post.even-true {
+  background-color: #ccecff;
+}
+
+.post-components .top,
+.post-components .bot {
+  padding: 15px;
+}
+
+.post-components .bot {
+  padding-top: unset;
+}
+
+.post-components .content {
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .post-components .top,
+  .post-components .bot {
+    display: flex;
+  }
+}
+
+.post.even-true .top {
+  border-bottom: 2px solid #c4e1f2;
+}
+
+.post.even-false .top {
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.profileImageUrl img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 5px;
+}
+
+.profileName {
+  color: #f18568;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.pb-4 {
+  padding-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.postImageUrl img {
+  padding-top: 18px;
+  width: 250px;
+  height: 190px;
+}
+
+.post-components .post {
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #2a303a;
+}
+
+.post-components .date {
+  font-size: 13;
+  color: #909aa4;
+}
